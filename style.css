@@ -1,0 +1,145 @@
+*{margin:  0 auto;}
+a{color: inherit; text-decoration: none;}
+body {font-family: Sylfaen;} 
+
+header { width: 1170px; height: 100px;} 
+header .flex-container {width: 1170px; height: 120px; display: flex; 
+flex-direction: row; align-items: center;}
+.flex-container > div {height: 100px; margin: 10px;
+	font-size: 30px;}
+.flex-container .logo img {margin-top: 15px;}
+.flex-container .navbar {height: 100px; overflow: hidden;}
+.flex-container .navbar nav {height: 100px;}
+.flex-container .navbar nav ul li { display: inline; margin: 5px; line-height: 100px;
+ font-size: 22px; color: #2450ad; -webkit-text-stroke-width: 1px;}
+.flex-container .navbar nav ul li a:hover {color: #c4d0ff;}
+
+.flex-container .icons ul {height: 40px; margin-top: 30px;}
+.flex-container .icons ul li {display: inline; line-height: 40px;
+	border-right: 1.5px solid #3B5998;}
+.flex-container .icons ul li:last-child {border-right: none;}
+.flex-container .icons .fa {
+    font-size: 35px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+.flex-container .icons .fa:hover {
+    opacity: 0.7;
+}
+.flex-container .icons .fa-facebook {
+  color:  #3B5998;
+}
+.flex-container .icons .fa-google {
+  color: #3B5998;
+}
+.fa-youtube {
+  color: #3B5998;
+}
+.fa-search {
+	color: #e42a2a;
+}
+
+#banner {width: 100%; height: 550px; background-color: #dcdcdc}
+#banner .photo {width: 1170px; height: 500px;}
+#banner .photo img {width: 1170px; height: 500px; margin-top: 25px;}
+
+#videobar {width: 100%; min-height: 450px; background-color: #2450ad; position: relative;}
+#videobar .videos {width: 1170px; height: 300px;}
+#videobar .videos h2 {color: white; position: absolute; margin-top: 20px; }
+#videobar .videos ul {list-style: none; padding: 0px;}
+#videobar .videos ul li {width: 573px; height: 300px; display: inline-block;
+ margin: 20px; background-color: #efeeee; margin-top: 80px; line-height: 300px;
+ text-align: center;}
+#videobar .videos ul li:first-child {margin-left: 0px;}
+#videobar .videos ul li:last-child {margin-right: 0px; margin-left: 0px;}
+
+#newsbar {width: 100%; min-height: 450px; background-color: #bcc4d2; position: relative;}
+#newsbar article {width: 1170px; height: 300px;}
+#newsbar article h2 {color: #2450ad; position: absolute; margin-top: 20px; }
+#newsbar article ul {list-style: none; padding: 0px;}
+#newsbar article ul li {width: 274px; height: 300px; display: inline-block;
+ margin: 20px; margin-left: 0px; background-color: #efeeee; margin-top: 80px;
+ line-height: 300px;
+ text-align: center; position: relative;}
+
+#newsbar article ul li .image1, .image2, .image3, .image4 {width: 274px; height: 240px;}
+#newsbar article ul li img {width: 274px; height: 240px;}
+#newsbar article ul li .text {width: 274px; height: 60px; color: black;
+ line-height: 60px; }
+#newsbar article ul li .text h2 {color: black; margin-top: 0px; margin-left: 10px;}
+#newsbar article ul li:first-child {margin-left: 0px;}
+#newsbar article ul li:last-child {margin-right: 0px;}
+
+#popularbar {width: 100%; min-height: 380px; background-color: #e1e1e2; position: relative;}
+#popularbar .popular {width: 1170px; height: 340px;}
+#popularbar .popular h2 {color: black; position: absolute; margin-top: 20px; }
+#popularbar .popular ul {list-style: none; padding: 0px;}
+#popularbar .popular ul li {width: 573px; height: 260px; display: inline-block;
+ margin: 20px; background-color: #f1f1f1; margin-top: 80px;}
+#popularbar .popular ul li:first-child {margin-left: 0px;}
+#popularbar .popular ul li:last-child {margin-right: 0px; margin-left: 0px;}
+#popularbar .popular ul li .populartitle {width: 573px; height: 50px;}
+#popularbar .popular ul li .populartitle h2 {margin-top: 0px; height: 50px; width: 400px;
+	margin-left: 15px;}
+#popularbar .popular ul li .populartext {width: 360px; height: 170px; float: right;}
+#popularbar .popular ul li .populartext h3 {height: 170px;}
+#popularbar .popular ul li .popularimage {width: 213px; height: 170px; float: left;}
+#popularbar .popular ul li .popularimage img {width: 213px; height: 170px;}
+#popularbar .popular ul li .more {width: 573px; height: 40px;}
+#popularbar .popular ul li .more h5 {color: #4b4bad; float: right; margin-right: 20px;
+	text-decoration: underline;}
+
+#footer_wrapper {width: 100%; height: 50px;}
+footer {width: 1170px; height: 50px; color: black;}
+footer h3 {line-height: 50px; float: left; font-size: 12px;}
+footer h4 {line-height: 50px; float: right; font-size: 12px;}
+
+/*news-typography*/
+#newstypo {width: 100%; height: 70px; background-color: #bcc4d2;}
+#newstypo .firstnews {width: 1170px; height: 70px;}
+#newstypo .firstnews h2 {color: #2450ad; position: absolute; margin-top: 20px;}
+#newstypo .firstnews h3 {color: white; position: absolute; font-size: 20px;
+	margin-top: -40px; margin-left: 220px;}
+#newstypo .firstnews h4 {color: white; position: absolute; font-size: 17px;
+right: 100px; margin-top: -40px; text-decoration: underline;}
+
+#typo {width: 100%; min-height: 700px;}
+#typo .typoarticle {width: 1170px; min-height: 700px; color: black; position: relative;}
+#typo .typoarticle .calendar {width: 70px; height: 70px; border: solid 2px #bcc4d2;
+	float: left; margin-left: 30px; margin-top: 30px;}
+#typo .typoarticle .calendar .number {width: 70px; height: 40px;}
+#typo .typoarticle h2 {margin-top: 120px; position: absolute;}
+#typo .typophoto {width: 270px; height: 310px; margin-top: 170px; position: absolute;}
+#typo .calendar .number h6 {font-size: 40px; color: #3956e8;
+	line-height: 40px; text-align: center;}
+#typo .calendar .month {width: 70px; height: 30px;}
+#typo .calendar .month h5 {line-height: 30px; text-align: center; font-size: 20px;}
+
+#bottomtypo {width: 100%; height: 70px; background-color: #bcc4d2;}
+#bottomtypo .lastnews {width: 1170px; height: 70px;}
+#bottomtypo .lastnews h5 {color: white; position: absolute; margin-top: 20px;
+	text-decoration: underline; font-size: 18px;}
+
+#contact {width: 100%; min-height: 80px; background-color: #ef3333;}
+#contact .firstcontact {width: 1170px; min-height: 80px; color: white;}
+#contact .firstcontact h2 {position: absolute; margin-top: 20px;}
+
+.mapplace {width: 100%; min-height: 500px; background-color: #dadada; position: relative;}
+.mapplace .maps {width: 1170px; height: 500px;}
+#googleMap {width: 1170px; height: 400px; margin-top: 50px;position: absolute;}
+
+#registrationid {width: 100%; min-height: 600px;}
+#registrationid .registration {width: 1170px; min-height: 600px; background-color: #252594;}
+input {width: 600px; height: 60px; margin-left: 400px; margin-top: 40px;
+ background-color: inherit; color: white; font-size: 20px;}
+input:last-child {width: 80px; height: 50px; font-size: 20px; background-color: red;
+	color: white; margin-top: 10px; margin-left: 370px;}
+input:nth-child(4) label {color: white;}
+textarea {width: 600px; height: 90px; margin-left: 400px; margin-top: 30px; resize: none;
+font-size: 20px; color: white;}
+
+#bottomtypocontact {width: 100%; height: 100px; background-color: #dadada;}
+#bottomtypocontact .lastnewscontact {width: 1170px; height: 100px;}
+#bottomtypocontact .lastnewscontact h5 {color: white; position: absolute; margin-top: 40px;
+	text-decoration: underline; font-size: 18px;}
