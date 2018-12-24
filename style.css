@@ -8,6 +8,7 @@ flex-direction: row; align-items: center;}
 .flex-container > div {height: 100px; margin: 10px;
 	font-size: 30px;}
 .flex-container .logo img {margin-top: 15px;}
+.flex-container .logo a {display: block;}
 .flex-container .navbar {height: 100px; overflow: hidden;}
 .flex-container .navbar nav {height: 100px;}
 .flex-container .navbar nav ul li { display: inline; margin: 5px; line-height: 100px;
